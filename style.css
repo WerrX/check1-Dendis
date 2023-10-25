@@ -1,0 +1,130 @@
+.footer-link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial;
+}
+.headerVrch {
+    display: inline-block;
+    margin-right: 10px;
+}
+body {
+    background-image: url("Images/obrazkyFilmov/bc.jpg");
+    background-size: cover;
+}
+#headera {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    display:inline;
+}
+.headerVrch{
+    color: white;
+}
+.navbar-nav li {
+    float: right;
+    color: white;
+}
+/*navigacuia 1  */
+.navbar{
+    padding:  20px 8% 20px;
+    width: auto;
+}
+.kukajTo{
+    width: max-content;
+}
+.search-button{
+    float: right;
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+
+/*navigacia1 end*/
+
+/* inline prihlsenie a reg*/
+#headera .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+/*menu hlavne preklikavanie filmov */
+.carousel-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+/*text v slide obrazkoch*/
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    top: 50%; /* Adjust the top value as needed */
+    transform: translateY(-50%);
+    text-align: left;
+}
+.carousel-caption h5, .carousel-caption p {
+    text-align: left; /* Align text to the left within the caption */
+}
+.imageSlide{
+    float: right;
+}
+
+/*---------------------------*/
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+.col-2:hover{
+    transform: scale(1.25);
+}
+/*uprava pozicie obrazku*/
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    position: relative;
+    vertical-align: text-bottom;
+    border-radius: 15px 50px;
+}
+/*NAV2 */
+.container-2nacv{
+    padding: 20px 8% 20px;
+}
+
+/*--------------------------Prihlasovani sa css-------------------------------------------*/
+.teloPrihlasovania{
+    min-width: 75%;
+    background-color:#343a40;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+}
+#iconsRow{
+    margin: 20px 25% 20px;
+}
+
+.prihlasenie{
+    display: flex;
+    flex-direction: column;
+}
+.col-6{
+    max-width: 100px;
+    max-height: 100px;
+}
+.custom-icon {
+    font-size: 40px;
+    margin: 5px;
+}
+.prihlasneiIkona{
+    margin: 20px 25% 20px;
+
+}
+
+/*--------------------------Prihlasovani sa END css----------------------------------------*/
+
+@media screen and (max-width: 768px) {
+    .headerVrch {
+        font-size: 14px;
+    }
+}
+
